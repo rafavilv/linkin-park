@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111313">
+    <meta name="description" content="Uma viagem interativa pela música, pelos discos e pela história do Linkin Park.">
+    <title>Linkin Park — Entre o ruído e a luz</title>
+    <link rel="preconnect" href="https://en.wikipedia.org">
+    <link rel="preconnect" href="https://upload.wikimedia.org">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="wordmark" href="#inicio" aria-label="Linkin Park, início">LP<span>.</span></a>
+      <nav aria-label="Navegação principal">
+        <a href="#discos">Discos</a>
+        <a href="#banda">A banda</a>
+        <a href="#jogo">Jogue</a>
+        <a href="#chester">Chester</a>
+      </nav>
+      <a class="topbar-note" href="#discos">Desde 1996 <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="live-dot"></span> Uma banda. Muitas vozes.</p>
+          <h1 id="hero-title">LINKIN<br><span>PARK</span></h1>
+          <div class="hero-bottom">
+            <p>Entre o ruído e a luz,<br>uma história que ainda pulsa.</p>
+            <a class="circle-link" href="#discos" aria-label="Explorar a discografia"><span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <p class="hero-index" aria-hidden="true">34° 03′ N / 118° 14′ W</p>
+        <p class="hero-caption">LOS ANGELES, CALIFÓRNIA · 1996—</p>
+      </section>
+
+      <section class="intro section-wrap" aria-label="Sobre a banda">
+        <p class="section-kicker">01 / O SOM</p>
+        <div class="intro-copy">
+          <h2>Uma frequência<br>que atravessa <em>gerações.</em></h2>
+          <p>Do peso das guitarras à vulnerabilidade de uma voz, o Linkin Park transformou contrastes em linguagem. Uma discografia feita para sentir alto — e encontrar companhia no caminho.</p>
+        </div>
+        <span class="intro-mark" aria-hidden="true">LP</span>
+      </section>
+
+      <section class="albums section-wrap" id="discos" aria-labelledby="albums-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">02 / A DISCOGRAFIA</p>
+            <h2 id="albums-title">Discos que <em>ficam.</em></h2>
+          </div>
+          <div class="album-filters" role="group" aria-label="Filtrar discos">
+            <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+            <button class="filter-button" type="button" data-filter="2000" aria-pressed="false">2000—09</button>
+            <button class="filter-button" type="button" data-filter="2010" aria-pressed="false">2010—19</button>
+            <button class="filter-button" type="button" data-filter="2020" aria-pressed="false">2020—</button>
+          </div>
+        </div>
+
+        <div class="album-grid">
+          <article class="album-card" data-era="2000" style="--card-accent:#e34c36">
+            <div class="album-art"><img data-wiki="Hybrid Theory" alt="Capa do álbum Hybrid Theory" loading="lazy"><span class="art-index">01</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>Hybrid Theory</h3><p>O começo de tudo</p></div><time datetime="2000">2000</time></div>
+          </article>
+          <article class="album-card" data-era="2000" style="--card-accent:#cdbd87">
+            <div class="album-art"><img data-wiki="Meteora" alt="Capa do álbum Meteora" loading="lazy"><span class="art-index">02</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>Meteora</h3><p>Impacto em movimento</p></div><time datetime="2003">2003</time></div>
+          </article>
+          <article class="album-card" data-era="2000" style="--card-accent:#6c8791">
+            <div class="album-art"><img data-wiki="Minutes to Midnight" alt="Capa do álbum Minutes to Midnight" loading="lazy"><span class="art-index">03</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>Minutes to Midnight</h3><p>Uma nova perspectiva</p></div><time datetime="2007">2007</time></div>
+          </article>
+          <article class="album-card" data-era="2010" style="--card-accent:#d4a247">
+            <div class="album-art"><img data-wiki="A Thousand Suns" alt="Capa do álbum A Thousand Suns" loading="lazy"><span class="art-index">04</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>A Thousand Suns</h3><p>Um álbum em combustão</p></div><time datetime="2010">2010</time></div>
+          </article>
+          <article class="album-card" data-era="2010" style="--card-accent:#57a6a1">
+            <div class="album-art"><img data-wiki="Living Things (Linkin Park album)" alt="Capa do álbum Living Things" loading="lazy"><span class="art-index">05</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>Living Things</h3><p>Eletrônico e visceral</p></div><time datetime="2012">2012</time></div>
+          </article>
+          <article class="album-card" data-era="2010" style="--card-accent:#a84839">
+            <div class="album-art"><img data-wiki="The Hunting Party (album)" alt="Capa do álbum The Hunting Party" loading="lazy"><span class="art-index">06</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>The Hunting Party</h3><p>Guitarras sem freio</p></div><time datetime="2014">2014</time></div>
+          </article>
+          <article class="album-card" data-era="2010" style="--card-accent:#d7d2c4">
+            <div class="album-art"><img data-wiki="One More Light" alt="Capa do álbum One More Light" loading="lazy"><span class="art-index">07</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>One More Light</h3><p>Coragem de ser vulnerável</p></div><time datetime="2017">2017</time></div>
+          </article>
+          <article class="album-card" data-era="2020" style="--card-accent:#d9553e">
+            <div class="album-art"><img data-wiki="From Zero (Linkin Park album)" alt="Capa do álbum From Zero" loading="lazy"><span class="art-index">08</span><span class="art-open" aria-hidden="true">↗</span></div>
+            <div class="album-meta"><div><h3>From Zero</h3><p>Um novo capítulo</p></div><time datetime="2024">2024</time></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="members section-wrap" id="banda" aria-labelledby="members-title">
+        <div class="section-heading members-heading">
+          <div>
+            <p class="section-kicker">03 / QUEM FAZ O SOM</p>
+            <h2 id="members-title">Muitas vozes.<br><em>Um só pulso.</em></h2>
+          </div>
+          <p class="heading-note">Uma formação em constante movimento, unida pela vontade de experimentar e pela força de fazer música em conjunto.</p>
+        </div>
+        <div class="member-grid">
+          <article class="member-card member-featured"><img data-wiki="Mike Shinoda" alt="Mike Shinoda" loading="lazy"><div class="member-info"><span>Voz · guitarra · teclados</span><h3>Mike Shinoda</h3></div><span class="member-number">01</span></article>
+          <article class="member-card"><img data-wiki="Chester Bennington" alt="Chester Bennington" loading="lazy"><div class="member-info"><span>Voz · 1976—2017</span><h3>Chester Bennington</h3></div><span class="member-number">02</span></article>
+          <article class="member-card"><img data-wiki="Brad Delson" alt="Brad Delson" loading="lazy"><div class="member-info"><span>Guitarra</span><h3>Brad Delson</h3></div><span class="member-number">03</span></article>
+          <article class="member-card"><img data-wiki="Dave Farrell" alt="Dave Farrell" loading="lazy"><div class="member-info"><span>Baixo</span><h3>Dave “Phoenix” Farrell</h3></div><span class="member-number">04</span></article>
+          <article class="member-card"><img data-wiki="Joe Hahn" alt="Joe Hahn" loading="lazy"><div class="member-info"><span>DJ · samples</span><h3>Joe Hahn</h3></div><span class="member-number">05</span></article>
+          <article class="member-card"><img data-wiki="Rob Bourdon" alt="Rob Bourdon" loading="lazy"><div class="member-info"><span>Bateria · formação original</span><h3>Rob Bourdon</h3></div><span class="member-number">06</span></article>
+          <article class="member-card"><img data-wiki="Emily Armstrong" alt="Emily Armstrong" loading="lazy"><div class="member-info"><span>Voz</span><h3>Emily Armstrong</h3></div><span class="member-number">07</span></article>
+          <article class="member-card"><img data-wiki="Colin Brittain" alt="Colin Brittain" loading="lazy"><div class="member-info"><span>Bateria</span><h3>Colin Brittain</h3></div><span class="member-number">08</span></article>
+        </div>
+      </section>
+
+      <section class="game-section" id="jogo" aria-labelledby="game-title">
+        <div class="game-inner section-wrap">
+          <div class="game-copy">
+            <p class="section-kicker">04 / MODO DE JOGO</p>
+            <h2 id="game-title">Sinta o<br><em>impacto.</em></h2>
+            <p>Escolha uma faixa, acompanhe o vídeo e acerte cada batida. Quanto maior a dificuldade, menor a janela de tempo.</p>
+            <div class="game-options">
+              <label for="track-select">FAIXA
+                <select id="track-select">
+                  <option value="in-the-end">In the End</option>
+                  <option value="numb">Numb</option>
+                  <option value="faint">Faint</option>
+                  <option value="what-ive-done">What I've Done</option>
+                </select>
+              </label>
+              <label for="difficulty-select">DIFICULDADE
+                <select id="difficulty-select">
+                  <option value="hard" selected>Hard</option>
+                  <option value="expert">Expert</option>
+                </select>
+              </label>
+            </div>
+            <label class="sync-control" for="sync-offset">AJUSTE FINO DA SINCRONIA
+              <span class="sync-slider"><input id="sync-offset" type="range" min="-250" max="250" step="25" value="0"><output id="sync-value" for="sync-offset">0 ms</output></span>
+            </label>
+            <div class="game-controls"><button class="start-button" id="start-game" type="button"><span aria-hidden="true">▶</span> Começar</button><span class="key-hint">ou pressione <kbd>ESPAÇO</kbd></span></div>
+            <p class="game-message" id="game-message" aria-live="polite">Pronto para entrar no ritmo?</p>
+          </div>
+          <div class="rhythm-machine" aria-label="Jogo de ritmo">
+            <div class="machine-top"><span>LP / RHYTHM SYSTEM</span><button class="sound-toggle" id="sound-toggle" type="button" aria-label="Desativar efeitos sonoros" aria-pressed="true">SOM ON</button><span id="game-clock">00:30</span></div>
+            <div class="track-player">
+              <div class="player-caption"><span id="track-status" aria-live="polite">Carregando player...</span><a id="track-link" href="https://www.youtube.com/watch?v=eVTXPUF4Oz4" target="_blank" rel="noopener noreferrer">Abrir no YouTube ↗</a></div>
+              <div id="youtube-player" aria-label="Player da faixa selecionada"></div>
+            </div>
+            <div class="game-board" id="game-board">
+              <div class="beat-lane" aria-hidden="true">
+                <span class="lane-line"></span>
+                <span class="hit-zone"></span>
+                <span class="hit-label">HIT</span>
+              </div>
+              <div class="beat-notes" id="beat-notes" aria-hidden="true"></div>
+              <div class="board-overlay" id="board-overlay"><span>PRESSIONE<br>PARA COMEÇAR</span></div>
+            </div>
+            <div class="machine-bottom">
+              <div><span class="stat-label">PONTOS</span><strong id="score">0000</strong></div>
+              <div><span class="stat-label">COMBO</span><strong id="combo">×0</strong></div>
+              <button class="hit-button" id="hit-button" type="button" aria-label="Acertar a batida">●</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tribute" id="chester" aria-labelledby="tribute-title">
+        <div class="tribute-image" aria-hidden="true"></div>
+        <div class="tribute-content">
+          <p class="section-kicker">05 / PARA SEMPRE</p>
+          <p class="tribute-quote">“Who cares if one more light goes out?”</p>
+          <h2 id="tribute-title">A voz que<br><em>permanece.</em></h2>
+          <p class="tribute-copy">Chester Bennington emprestou sua voz a sentimentos que muita gente não conseguia nomear. Sua entrega, sua força e sua humanidade seguem vivas em cada canção e em quem encontrou nelas um lugar para existir.</p>
+          <p class="tribute-signature">Chester Charles Bennington <span>1976 — 2017</span></p>
+        </div>
+        <span class="tribute-star" aria-hidden="true">✳</span>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="wordmark" href="#inicio" aria-label="Voltar ao início">LP<span>.</span></a>
+      <p>Feito com respeito, para quem ainda canta junto.</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>
